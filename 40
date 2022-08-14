@@ -1,0 +1,9 @@
+public class App {
+    // BEGIN (write your solution here)
+    public static String sayHurrayThreeTimes() {
+        var word = "hurray!";
+        var result = word + " " + word + " " + word;
+        return result;
+    }
+    // END
+}
