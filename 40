@@ -1,3 +1,4 @@
+//40
 public class App {
     // BEGIN (write your solution here)
     public static String sayHurrayThreeTimes() {
@@ -6,4 +7,15 @@ public class App {
         return result;
     }
     // END
+}
+
+//41
+public class App {
+    public static String truncate(String text, int length) {
+        // BEGIN (write your solution here)
+       var newtext = text.substring(0, length);
+       var result = newtext + "...";
+        return result;
+        // END
+    }
 }
