@@ -19,3 +19,21 @@ public class App {
         // END
     }
 }
+
+//42
+public class App {
+    // BEGIN (write your solution here)
+    public static String getHiddenCard(String x, int y) {
+        var end = x.substring(12);
+        var stars = "*".repeat(y);
+        return stars + end;
+            }
+
+    public static String getHiddenCard(String x) {
+        var end = x.substring(12);
+        var stars = "****";
+        return stars + end;
+            }
+
+    // END
+}
