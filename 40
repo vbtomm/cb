@@ -60,3 +60,16 @@ public class App {
     // END
 }
 
+//45
+public class App {
+    // BEGIN (write your solution here)
+    public static boolean isInternationalPhone(String string) {
+        var firstSymbol = string.charAt(0);
+        var a = "+";
+        var plus = a.charAt(0);
+        return firstSymbol == plus;
+    }
+    
+    // END
+}
+
