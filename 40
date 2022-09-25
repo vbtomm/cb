@@ -85,3 +85,13 @@ public class App {
     // END
 }
 
+//46
+public class App {
+    // BEGIN (write your solution here)
+    public static boolean isLeapYear(int year) {
+        return year % 400  == 0 || year % 4 == 0 && year % 100 != 0;
+    }
+    // END
+}
+
+
