@@ -94,4 +94,16 @@ public class App {
     // END
 }
 
+//47
+import java.time.LocalDate;
+
+public class App {
+    // BEGIN (write your solution here) 
+
+    public static boolean notToday(String date) {
+    var today = LocalDate.now().toString();
+    return !today.equals(date);
+}
+    // END
+}
 
