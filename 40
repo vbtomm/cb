@@ -137,3 +137,22 @@ public class App {
     // END
 }
 
+//50
+public class App {
+    // BEGIN (write your solution here)
+    public static String whoIsThisHouseToStarks(String surname){
+        if (surname.equals("Karstark") || surname.equals("Tally")) {
+            return "friend";
+        }
+        else if (surname.equals("Lannister") || surname.equals("Frey"))  {
+            return "enemy";
+        }
+        else  {
+        return "neutral";
+        }
+    } 
+    
+    // END
+}
+
+
