@@ -107,3 +107,17 @@ public class App {
     // END
 }
 
+
+//48
+public class App {
+    // BEGIN (write your solution here)
+    public static String getSentenceTone(String sentence) {
+        if (sentence.equals(sentence.toUpperCase())){
+            return "scream";
+        }
+        else {
+            return "normal";
+        }
+    }
+    // END
+}
