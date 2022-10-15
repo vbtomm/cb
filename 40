@@ -121,3 +121,19 @@ public class App {
     }
     // END
 }
+
+//49
+public class App {
+    // BEGIN (write your solution here)
+    public static String normalizeUrl(String url) {
+        if (url.startsWith("https://")) {
+            return url;
+        }
+        else {
+            return "https://"+url;
+        }
+    }
+    
+    // END
+}
+
