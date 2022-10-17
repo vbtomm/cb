@@ -155,4 +155,20 @@ public class App {
     // END
 }
 
+//51
+
+import org.apache.commons.lang3.StringUtils;
+
+public class App {
+    // BEGIN (write your solution here)
+    public static String convertString(String word){
+        if (word.equals("")) {
+            return word;
+        }
+        var firstLetter = word.charAt(0);
+        return Character.isUpperCase(firstLetter) ? word : StringUtils.reverse(word);
+        }
+    // END
+}
+
 
