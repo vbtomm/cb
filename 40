@@ -189,3 +189,18 @@ public class App {
     }
     // END
 }
+
+//53
+public class App {
+    public static void printNumbers(int firstNumber) {
+        // BEGIN (write your solution here)
+        var i = firstNumber;
+
+        while (1 <= i) {
+            System.out.println(i);
+            i = i - 1;
+        }
+        System.out.println("finished!");
+        // END
+    }
+}
