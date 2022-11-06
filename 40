@@ -220,3 +220,20 @@ public class App {
         // END
     }
 }
+
+//55
+public class App {
+    public static String joinNumbersFromRange(int start, int finish) {
+        // BEGIN (write your solution here)
+        var result = "";
+        var i = start;
+
+        while (i <= finish) {
+           result = result + i;
+            i = i + 1;
+        }
+
+        return result;
+        // END
+    }
+}
