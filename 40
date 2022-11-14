@@ -250,3 +250,25 @@ public class App {
         // END
     }
 }
+
+//57
+public class App {
+    public static int countChars(String str, char ch) {
+        // BEGIN (write your solution here)
+        var i = 0;
+        var count = 0;
+        var str2 = str.toUpperCase();
+
+        while (i < str2.length()) {
+            if (str2.charAt(i) == Character.toUpperCase(ch)) {
+                count = count +1;
+            }
+            i = i+1;
+        }
+
+        return count;
+
+        // END
+    }
+}
+
