@@ -288,3 +288,26 @@ public class App {
     }
 }
 
+//59
+public class App {
+    public static String filterString(String str, char ch) {
+        // BEGIN (write your solution here)
+        
+        var i = 0;
+        var result = "";
+
+        while (i < str.length()){
+            if (str.charAt(i) == ch) {
+                result = result;
+                i += 1;
+                            }
+             if (str.charAt(i) != ch) {
+                result = result + str.charAt(i);
+                i += 1;
+                            }
+        }
+         return result;
+        // END
+    }
+}
+
